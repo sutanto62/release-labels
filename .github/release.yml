@@ -7,15 +7,9 @@ changelog:
     authors:
       - sutanto62 
   categories:
-    - title: Exciting New Features 🎉
+    - title: 🏕 Features
       labels:
-        - Semver-Minor
-        - enhancement
-    - title: Fix
-      labels:
-        - bug
-        - invalid
-    - title: Other Changes
-      labels:
-        - "*"
-
+        - '*'
+      exclude:
+        labels:
+          - dependencies 
