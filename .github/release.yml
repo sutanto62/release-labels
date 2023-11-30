@@ -15,4 +15,7 @@ changelog:
       labels:
         - bug
         - invalid
+    - title: Other Changes
+      labels:
+        - "*"
 
