@@ -1,0 +1,18 @@
+# .github/release.yml
+
+changelog:
+  exclude:
+    labels:
+      - ignore-for-release
+    authors:
+      - sutanto62 
+  categories:
+    - title: Exciting New Features 🎉
+      labels:
+        - Semver-Minor
+        - enhancement
+    - title: Fix
+      labels:
+        - bug
+        - invalid
+
